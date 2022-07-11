@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <title>Admin Dashboard</title>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="sidebar">
+
+
+      <div class="container-user-info">
+        <div class="user-photo">
+          <a href=""><img class="user-img" src="userimg.jpeg"></a>
+        </div>
+          <div class="user-info">
+            <p><a href="">Cody Jardine</a></p>
+            <p class="position">Ticket Support</p>
+            <p class="location">United States/Ohio</p>
+          </div>
+      </div>
+      <hr>
+      <nav class="sidebar-nav">
+        <ul>
+          <li>
+            <i class="fa-regular fa-house"></i>
+              <p>Dashboard</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-address-card"></i>
+            <p>Profile</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-message"></i>
+            <p>Messages</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-ticket"></i>
+            <p>Tickets</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-list-check"></i>
+            <p>Tasks</p>
+          </li>
+
+          <li>
+            <i class="fa-regular fa-gear"></i>
+              <p>Settings</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-question"></i>
+              <p>Support</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-shield"></i>
+            <p>Privacy</p>
+          </li>
+      </nav>
+
+
+
+    </div>
+
+    <div class="container-grid-pad1 container-header">
+      <div class="wrapper">
+
+        <div class="header page-title">
+          Dashboard
+        </div>
+        <div class="header right">
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="notifications">
+            <i class="fa-solid fa-bell"></i>
+            <div class="notification-dot"></div>
+          </div>
+          <hr>
+          <div class="my-account"><a href="">My Account</a>
+            <span><i class="fa-solid fa-caret-down"></i></span>
+          </div>
+        </div>
+      </div>
+      <hr class='rule-header'>
+    </div>
+
+    <div class="container-grid-pad1 container-tickets">
+      <div class="container-tickets-grid">
+        <div class="ticket open">
+          <div class="icon">
+            <i class="fa-regular fa-ticket"></i>
+          </div>
+          <div>
+            <p class="num">13</p>
+            <p class="desc">Open</p>
+          </div>
+        </div>
+        <div class="ticket unresolved">
+          <div class="icon">
+            <i class="fa-regular fa-hourglass"></i>
+          </div>
+           <div>
+             <p class="num">32</p>
+             <p class="desc">Unresolved</p>
+           </div>
+        </div>
+        <div class="ticket on-hold">
+          <div class="icon">
+            <i class="fa-regular fa-circle-pause"></i>
+          </div>
+           <div>
+             <p class="num">47</p>
+             <p class="desc">On hold</p>
+           </div>
+        </div>
+        <div class="ticket overdue">
+          <div class="icon">
+            <i class="fa-regular fa-triangle-exclamation"></i>
+          </div>
+           <div>
+             <p class="num">9</p>
+             <p class="desc">Overdue</p>
+           </div>
+        </div>
+     </div>
+    </div>
+    
+    <div class="container-trends">
+      <div class="chart">
+        <span class="trends">Today's Trends</span>
+        <img src="trends.png">
+      </div>
+      <div class="chart-info">
+        <div>
+          <h2>420</h2>
+          <p>Resolved</p>
+        </div>
+        <div>
+          <h2>537</h2>
+          <p>Received</p>
+        </div>
+        <div>
+          <h2>2h 48m</h2>
+          <p>Average Response Time</p>
+        </div>
+        <div>
+          <h2>91%</h2>
+          <p>Resolution within SLA</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-cards-l">
+      <div class="lg-card">
+          <div class="card-header">
+            <div class="card-title">
+                <h2>Recent Tickets</h2>
+                <a href="">View all</a>
+            </div>
+            <p>Group: <span>Support</span></p>
+          </div>
+          <div>
+            <p><span class="ticket-name"><a href="">Ash Williams</a></span> submitted a new ticket</p>
+            <p class="lg-card-num">269</p>
+          </div>
+          <div>
+            <p><span class="ticket-name"><a href="">Johnny Truant</a></span> submitted a new ticket</p>
+            <p class="lg-card-num">268</p>
+          </div>
+          <div>
+            <p><span class="ticket-name"><a href="">Annie Wilkes</a></span> submitted a new ticket</p>
+            <p class="lg-card-num">267</p>
+          </div>
+          <div>
+            <p><span class="ticket-name"><a href="">Norman Bates</a></span> submitted a new ticket</p>
+            <p class="lg-card-num">266</p>
+          </div>
+      </div>
+    </div>
+    
+    <div class="container-cards-r">
+
+      <div class="lg-card">
+        <div class="card-header">
+           <div class="card-title">
+              <h2>Tasks</h2>
+              <a href="">View all</a>
+           </div>
+           <p>Today</p>
+        </div>
+        <div>
+           <div class="checkbox-container">
+              <div class="checkbox">
+                 <input type="checkbox" id="checkbox1">
+              </div>
+              <label for="checkbox1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </label>
+           </div>
+        </div>
+        <div>
+           <div class="checkbox-container">
+              <div class="checkbox">
+                 <input type="checkbox" id="checkbox2">
+              </div>
+              <label for="checkbox2">
+                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+              </label>
+           </div>
+        </div>
+        <div>
+           <div class="checkbox-container">
+              <div class="checkbox">
+                 <input type="checkbox" id="checkbox3">
+              </div>
+              <label for="checkbox3">
+                <p>Ut enim ad minim veniam</p>
+              </label>
+           </div>
+        </div>
+        <div>
+           <div class="checkbox-container">
+              <div class="checkbox">
+                 <input type="checkbox" id="checkbox4">
+              </div>
+              <label for="checkbox4">
+                <p>Excepteur sint occaecat cupidatat non proident</p>
+              </label>
+           </div>
+        </div>
+     </div>
+  </div>
+
+    </div>
+    
+  </div>
+</body>
+</html>
